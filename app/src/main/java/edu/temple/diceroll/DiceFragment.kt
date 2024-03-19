@@ -34,6 +34,10 @@ class DiceFragment : Fragment() {
         }
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+    }
+
     companion object {
 
         @JvmStatic
